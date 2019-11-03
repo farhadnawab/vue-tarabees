@@ -1,0 +1,214 @@
+.site-header {
+	padding: 0;
+	z-index: 100;
+	@include transition();
+	@include position(fixed, 0,0,null,0);
+}
+
+.navbar-brand {
+	padding: 0;
+	position: relative;
+	.logo-sticky {
+		left: 0;
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		width: 75px;
+		@include transition();
+	}
+}
+
+.navbar-nav {
+	font-family: $title-font;
+	text-transform: uppercase;
+	li {
+		position: relative;
+	}
+	> li {
+		> a {
+			color: #fff;
+			display: block;
+			font-size: 13px;
+			padding: 35px 22px 34px;
+			position: relative;
+			&::before {
+				backface-visibility: hidden;
+				color: $primary-color;
+				content: attr(data-text);
+				font-weight: 500;
+				position: absolute;
+				left: 22px;
+				@include transform(scaleX(0));
+				@include transform-origin(left top 0);
+				@include transition(all 0.3s ease 0s);
+			}
+			span {
+				display: inline-block;
+				@include transform(scaleX(1));
+				@include transform-origin(right top 0);
+				@include transition(all 0.3s ease 0s);
+			}
+		}
+		&:hover {
+			> a {
+				&::before {
+					@include transform(scaleX(1));
+				}
+				span {
+					@include transform(scaleX(0));
+				}
+			}
+			.submenu {
+				@include transform(scaleY(1));
+			}
+		}
+		> a.router-link-active {
+			&::before {
+				@include transform(scaleX(1));
+			}
+			span {
+				@include transform(scaleX(0));
+			}
+		}
+		
+		> &:first-child a {
+			margin-left: 0;
+		}
+	}
+	.submenu {
+		background-color: #fff;
+		border-top: 2px solid #fe3811;
+		list-style: outside none none;
+		margin: 0;
+		min-width: 200px;
+		padding: 40px 30px;
+		position: absolute;
+		z-index: 5;
+		@include transform(scaleY(0));
+		@include transform-origin(left top 0);
+		@include transition(transform 0.2s ease 0s);
+		li a {
+			color: $dark;
+			font-size: 12px;
+			position: relative;
+			&::before {
+				background-color: $primary-color;
+				content: '';
+				height: 2px;
+				width: 0px;
+				@include position(absolute, 50%,null,null,0);
+				@include transition(width 0.4s ease 0s);
+				@include transform(translateY(-50%));
+			}
+		}
+		> li {
+			> a {
+				display: block;
+				margin-bottom: 25px;
+				@include transition(padding-left 0.4s ease 0s);
+				&:hover {
+					padding-left: 30px;
+					&::before {
+						width: 15px;
+					}
+				}
+			}
+			&:last-child > a {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.nav-dark {
+	li {
+		a {
+			color: $dark;
+		}
+	}
+}
+
+.navbar-toggler {
+	// border: 0 none;
+	// border-radius: 0;
+	// font-size: 14px;
+	// line-height: 1;
+	// padding: 0;
+	// &:focus {
+	// 	outline: none;
+	// }
+}
+
+.navbar-toggler { 
+	position: relative;
+	margin-right: 15px;
+	padding: 0;
+	@include inline-flex();
+	@include transition(all 0.3s ease-out);
+
+	.menu-icon {
+		width: 30px;
+		position: relative;
+		z-index: 2;
+		cursor: pointer;
+		display: block;
+		// &:hover .menu-icon__line-left,
+		// &:hover .menu-icon__line-right {
+		// 	width: 30px;
+		// }
+	}
+	.menu-icon__line {
+		background-color: #fff;
+		height: 2px;
+		width: 30px;
+		display: block;
+		margin-bottom: 7px;
+		cursor: pointer;
+		transition: transform .2s ease, background-color .5s ease, -webkit-transform .2s ease;
+	}
+	.menu-icon__line-left {
+		width: 16.5px;
+		@include transition(all 200ms linear);
+	}
+	.menu-icon__line-right {
+		width: 16.5px;
+		float: right;
+		margin-bottom: 0;
+		@include transition(all 200ms linear);
+	}
+
+	&.active .menu-icon__line {
+	    @include transform(translate(0px, 0px) rotate(-45deg));
+	}
+
+	&.active .menu-icon__line-left {
+	    width: 15px;
+	    @include transform(translate(2px, 4px) rotate(45deg));
+	}
+
+	&.active .menu-icon__line-right {
+	    width: 15px;
+	    float: right;
+	    @include transform(translate(-3px, -3.5px) rotate(45deg));
+	}
+}
+
+.header-sticky {
+	background-color: #fff;
+	box-shadow: rgba($dark, 0.1) 0px 0px 20px;
+	.navbar-nav li {
+		a {
+			color: $dark;
+		}
+	}
+	.logo-sticky {
+		opacity: 1;
+	}
+	.menu-icon__line {
+		background-color: $dark;
+	}
+	.navbar-nav > li > a {
+	  	padding-bottom: 24px;
+	  	padding-top: 25px;
+	}
+}

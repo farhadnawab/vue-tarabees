@@ -1,0 +1,46 @@
+
+body {
+	color: $text-color;
+	font-family: $font-stack;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+	font-family: $title-font;
+}
+
+a {
+	@include transition(all 0.2s ease 0s);
+	&:hover,
+	&:focus {
+		outline: none;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.form-control:focus {
+	box-shadow: none;
+}
+
+.table-bordered {
+	thead {
+		td, th {
+			border-bottom-width: 1px;
+		}
+		th {
+			border-color: rgba($text-color, 0.25);
+		}
+	}
+	td, th {
+		border-color: rgba($text-color, 0.25);
+	}
+}

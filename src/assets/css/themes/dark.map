@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../../scss/themes/dark.css",
+	"sources": [
+		"../../scss/themes/dark.scss",
+		"../../scss/base/_variables.scss"
+	],
+	"sourcesContent": [
+		"// import variables\n@import \"../base/variables\";\n\n\n.dark-bg {\n\tbackground-color: $dark;\n}\n.form-control {\n\tcolor: $text-color;\n}\n.input-tp {\n\tcolor: #fff;\n\t&:focus {\n\t\tcolor: #fff;\n\t}\n}",
+		"// Typography\n$font-stack: \"Roboto\", sans-serif;\n$title-font: \"Oswald\", sans-serif;\n\n$base-font-size: 14px;\n$base-line-height: 1.7;\n\n\n// Colors\n$primary-color: #fc0247;\n$secondery-color: #fa004a;\n$text-color: #8d939f;\n$dark: #030409;\n\n"
+	],
+	"mappings": ";AAIA,AAAA,QAAQ,CAAC;EACR,gBAAgB,ECOV,OAAO;CDNb;;;AACD,AAAA,aAAa,CAAC;EACb,KAAK,ECGO,OAAO;CDFnB;;;AACD,AAAA,SAAS,CAAC;EACT,KAAK,EAAE,IAAK;CAIZ;;;AALD,AAAA,SAAS,AAEP,MAAM,CAAC;EACP,KAAK,EAAE,IAAK;CACZ",
+	"names": []
+}

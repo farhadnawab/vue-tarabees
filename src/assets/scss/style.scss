@@ -1,0 +1,64 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Fitness and Gym HTML5 Template
+Version:    1.1
+Author:     pocotheme
+Last Update: 22.02.2019
+
+[Layout]
+
+* body
+	+ CSS Resets
+	+ Helper CSS
+    + Header / .site-header
+    + Content / .site-main
+    + Pages
+    	- Home Page
+    	- Pages
+    	- Blog
+    + Footer / #footer
+
+-------------------------------------------------------------------*/
+
+@import "https://fonts.googleapis.com/css?family=Oswald:400,700";
+@import "https://fonts.googleapis.com/css?family=Roboto:400,400i,500";
+
+@import "../css/font-awesome.min.css";
+@import "../css/bootstrap.min.css";
+@import "../css/themify-icons.css";
+@import "../css/magnific-popup.css";
+@import "../css/animate.min.css";
+@import "libs/slick.scss";
+@import "../css/style.css";
+
+/*------------------------------------------------------------
+	Base Styles
+------------------------------------------------------------*/
+@import "base/mixins";
+@import "base/variables";
+@import "base/resets";
+@import "base/helper";
+@import "layouts/preloader";
+
+/*------------------------------------------------
+	Layout Styles
+-------------------------------------------------*/
+@import "layouts/header";
+@import "layouts/homePage";
+@import "layouts/pages";
+@import "layouts/blog";
+@import "layouts/footer";
+
+/*------------------------------------------------
+	Media Queries 
+@import "themes/dark.scss";
+-------------------------------------------------*/
+@import "layouts/media_queries";
+
+
+
+/*------------------------------------------------
+Farhad Custom CSS
+-------------------------------------------------*/
+

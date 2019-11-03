@@ -1,0 +1,39 @@
+.footer-top-shape {
+	svg {
+		display: block;
+	}
+	img[src*=".svg"] {
+	  	display: none;
+	}
+}
+
+.site-footer {
+	background-color: #010208;
+}
+
+.footer-nav {
+	li a {
+		color: $text-color;
+		font-size: 13px;
+		padding: 0 22px;
+		position: relative;
+		&::before {
+			background-color: #fff;
+			bottom: -14px;
+			content: "";
+			height: 2px;
+			left: 22px;
+			position: absolute;
+			right: 22px;
+			opacity: 0;
+			@include transition();
+		}
+		&:hover {
+			color: #fff;
+			&::before {
+				bottom: -4px;
+				opacity: 1;
+			}
+		}
+	}
+}

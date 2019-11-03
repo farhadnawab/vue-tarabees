@@ -1,32 +1,37 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    
+    <div class="preloader-wrap flex align-center justify-center">
+			<div class="preloader flex"><div class="dash uno"></div><div class="dash dos"></div><div class="dash tres"></div><div class="dash cuatro"></div></div>
+		</div>
+    
+		<Header />
+
     <router-view/>
+
+    <Footer />
+
   </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>
+
+<script>
+  import Header from '@/components/Header.vue'
+  import Footer from '@/components/Footer.vue'
+  
+  export default{
+    name: 'app',
+    components: {
+      Header,
+      Footer
+    },
+    watch:{
+        $route (){
+            window.$router = true;
+        }
+    } 
+  }
+</script>

@@ -1,0 +1,615 @@
+/*------------------------------------------------------------
+	Helper CSS
+------------------------------------------------------------*/
+
+// flexbox
+
+.flex           {@include flexbox();}
+.inline-flex    {@include inline-flex();}
+.align-center   {@include align-items(center);}
+.align-end   	{@include align-items(flex-end);}
+.flex-grow-1    {@include flex-grow(1);}
+.flex-flow-rw   {@include flex-flow(row wrap);}
+.flex-wrap      {@include flex-wrap(wrap);}
+.space-between  {@include justify-content(space-between);}
+.justify-center {@include justify-content(center);}
+.flex-top       {@include align-self (flex-start);}
+.flex-bottom    {@include align-self (flex-end);}
+.flex-left      {@include justify-content(flex-start);}
+.flex-right     {@include justify-content(flex-end);}
+
+
+
+/**
+ * Spacing
+ */
+.ml-auto {margin-left: auto;}
+.ml-5 {margin-left: 5px;}
+.ml-10 {margin-left: 10px;}
+.ml-15 {margin-left: 15px;}
+.ml-20 {margin-left: 20px;}
+.ml-25 {margin-left: 25px;}
+.ml-30 {margin-left: 30px;}
+// margin-right
+.mr-auto {margin-right: auto;}
+.mr-5 {margin-right: 5px;}
+.mr-10 {margin-right: 10px;}
+.mr-15 {margin-right: 15px;}
+.mr-20 {margin-right: 20px;}
+.mr-25 {margin-right: 25px;}
+.mr-30 {margin-right: 30px;}
+// margin-top
+.mt-0 {margin-top: 0;}
+.mt-5 {margin-top: 5px;}
+.mt-10 {margin-top: 10px;}
+.mt-15 {margin-top: 15px;}
+.mt-20 {margin-top: 20px;}
+.mt-25 {margin-top: 25px;}
+.mt-30 {margin-top: 30px;}
+.mt-35 {margin-top: 35px;}
+.mt-45 {margin-top: 45px;}
+.mt-50 {margin-top: 50px;}
+.mt-60 {margin-top: 60px;}
+.mt-70 {margin-top: 70px;}
+.mt-80 {margin-top: 80px;}
+// margin-bottom
+.mb-0 {margin-bottom: 0px;}
+.mb-5 {margin-bottom: 5px;}
+.mb-10 {margin-bottom: 10px;}
+.mb-15 {margin-bottom: 15px;}
+.mb-20 {margin-bottom: 20px;}
+.mb-25 {margin-bottom: 25px;}
+.mb-30 {margin-bottom: 30px;}
+.mb-35 {margin-bottom: 35px;}
+.mb-40 {margin-bottom: 40px;}
+.mb-45 {margin-bottom: 45px;}
+.mb-50 {margin-bottom: 50px;}
+.mb-60 {margin-bottom: 60px;}
+.mb-100 {margin-bottom: 100px;}
+// font size
+.fs-12 {font-size: 12px;}
+.fs-14 {font-size: 14px;}
+.fs-15 {font-size: 15px;}
+.fs-16 {font-size: 16px;}
+.fs-18 {font-size: 18px;}
+.fs-20 {font-size: 20px;}
+.fs-24 {font-size: 24px;}
+
+// Typography
+// font weight 
+.fw-400 {font-weight: 400;}
+.fw-500 {font-weight: 500;}
+.fw-700 {font-weight: 700;}
+.title-font {font-family: $title-font;}
+
+//sectioning
+.section-full { padding: 150px 0; }
+.section      { padding: 75px 0; }
+.top-half     { padding-top: 100px; }
+.top-full     { padding-top: 150px; }
+.bottom-half  { padding-bottom: 100px;}
+.bottom-full  { padding-bottom: 150px;}
+.section-arrow { padding: 140px 0 260px;}
+.p-relative   { position: relative;}
+.d-block      { display: block;}
+.d-inline     { display: inline-block;}
+.w-100        { width: 100%;}
+.danger       { color: #ff4951;}
+.ov-hidden    { overflow: hidden;}
+.z-index-0    {z-index: 0}
+.z-index-1    {z-index: 1}
+.z-index-2    {z-index: 2}
+.ws-nw        {white-space: nowrap;}
+
+.list-double-arrow {
+	list-style: outside none none;
+	padding-left: 0;
+	margin-bottom: 0;
+	li {
+		margin-bottom: 12px;
+		padding-left: 28px;
+		position: relative;
+		&::before {
+			content: "\e661";
+			font-family: 'themify';
+			left: 0;
+			margin-right: 13px;
+			position: absolute;
+			top: 0;
+		}
+	}
+}
+
+// colors 
+.primary-color {color: $primary-color;}
+.primary-bg {background-color: $primary-color;}
+.dark-bg {background-color: $dark;}
+.text-white {color: #fff;}
+.dark-color {color: $dark;}
+.text-italic {font-style: italic;}
+.svg-fill-dark {fill:$dark}
+.svg-fill-text {fill: $text-color}
+.svg-fill-white {fill:#fff}
+.link-white {
+	color: #fff;
+	&:hover,
+	&:focus {
+		color: #fff;
+	}
+}
+.gradient-text {
+	background: linear-gradient(left, #fe3e0b 0%, #fc0247 100%);
+	background: -moz-linear-gradient(left, #fc0247 0%, #fe3e0b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #fc0247 0%,#fe3e0b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #fc0247 0%,#fe3e0b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.gradient-bg {
+	background-image: linear-gradient(left, #fe3e0b 0%, #fc0247 100%);
+	background-image: -moz-linear-gradient(left, #fe3e0b 0%, #fc0247 100%); /* FF3.6-15 */
+	background-image: -webkit-linear-gradient(left, #fe3e0b 0%, #fc0247 100%); /* Chrome10-25,Safari5.1-6 */
+	background-image: linear-gradient(left, #fe3e0b 0%, #fc0247 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.gradient-hover {
+	position: relative;
+	z-index: 1;
+	&::before {
+		content: "";
+		width: 0;
+		z-index: -1;
+		@include position(absolute, 0, null, 0, 0);;
+		@include transition();
+		@extend .gradient-bg;
+	}
+	&:hover::before {
+		width: 100%;
+	}
+}
+.gradient-border {
+	// @link
+    // https://stackoverflow.com/questions/42347586/4-gradient-borders-in-css
+    border: 2px solid;
+    border-image: linear-gradient(to top, #fc0247 1%, #fe3b0e 100%);
+    border-image-slice: 1;
+}
+
+.transition { @include transition() }
+
+// buttons
+.btn {
+	border: 0 none;
+	border-radius: 0;
+	color: #fff;
+	font-family: $title-font;
+	font-size: 15px;
+	padding: 18px 50px 20px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.btn-sm {
+	font-size: 14px;
+	padding: 10px 20px 9px;
+}
+
+.btn-theme {
+	@extend .gradient-bg;
+	@extend .hover-effect-1;
+	&:hover,
+	&:focus {
+		color: #fff;
+	}
+}
+
+.btn-dark {
+	background-color: rgba($text-color, 0.25);
+	position: relative;
+	z-index: 1;
+	&::before {
+		content: "";
+		width: 0;
+		z-index: -1;
+		@include position(absolute, 0, null, 0, 0);;
+		@include transition();
+		@extend .gradient-bg;
+	}
+	&:hover::before {
+		width: 100%;
+	}
+}
+
+.btn-white {
+	background-color: #fff;
+	color: $dark;
+	@extend .hover-effect-1;
+	&:hover,
+	&:focus {
+		color: $dark;
+	}
+}
+
+.btn-bottom-border {
+	color: #fff;
+	position: relative;
+	z-index: 0;
+	-webkit-text-fill-color: unset;
+	&.light {
+		color: $primary-color;
+	}
+	@extend .gradient-text;
+	&::before {
+		background-color: rgba($text-color, 0.25);
+		content: "";
+		height: 3px;
+		width: 100%;
+		@include transform(scaleY(1));
+		@include transform-origin(left bottom 0);
+		@include position(absolute, null, null, 0, 0);
+		@include transition(all 0.2s ease 0s);
+	}
+	&::after {
+		@extend .gradient-bg;
+		content: "";
+		height: 100%;
+		width: 100%;
+		z-index: -1;
+		@include transform(scaleX(0));
+		@include transition(all 0.2s ease 0s);
+		@include transform-origin(left bottom 0);
+		@include position(absolute, 0, null, null, 0);
+	}
+	&:hover {
+		-webkit-text-fill-color: unset;
+		&.light {
+		}
+		color: #fff;
+		&::before {
+			@include transform(scaleY(0));
+		}
+		&::after {
+			@include transform(scaleX(1));
+		}
+	}
+	&:focus {
+		color: #fff;
+	}
+}
+
+.btn-form-submit-arrow {
+	border: 0 none;
+	color: #fff;
+	cursor: pointer;
+	padding: 0;
+}
+
+.hover-effect-1 {
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+	&::before,
+	&::after {
+		background-color: rgba($dark, 0.1);
+		content: '';
+		width: 0;
+		z-index: -1;
+		@include transform(skewX(25deg));
+		@include position(absolute, 0, null, 0, -20px);
+	}
+	&::before {
+		@include transition(0.2s);
+	}
+	&::after {
+		left: -35px;
+		@include transition(0.4s);
+	}
+	&:hover {
+		&::before,
+		&::after {
+			width: 100%;
+		}
+	}
+}
+
+.animated-border {
+	position: relative;
+	&::before,
+	&::after {
+		content:"";
+		width: 0;
+		height: 2px;
+		position: absolute;
+		transition: all 0.3s linear;
+		z-index: 10;
+		@extend .gradient-bg;
+	}
+	&::before{
+		left: 0;
+		top: 0;
+	}
+	&::after {
+		right:0;
+		bottom: 0;
+	}
+
+	.border-span {
+		&::before,
+		&::after {
+			content:"";
+			width:2px;
+			height:0;
+			position: absolute;
+			transition: all 0.3s linear;
+			z-index: 10;
+			@extend .gradient-bg;
+		}
+		&::before {
+			left: 0;
+			top: 0;
+		}
+		&::after {
+			right:0;
+			bottom: 0;
+		}
+	}
+	&:hover::before,
+	&:hover::after {
+	  	width: 100%;
+	}
+	&:hover .border-span::before,
+	&:hover .border-span::after {
+	  	height: 100%;
+	}
+}
+
+.link-hover-1 {
+	color: $text-color;
+	position: relative;
+	&::before {
+		background-color: #fff;
+		content: "";
+		height: 2px;
+		opacity: 0;
+		@include position(absolute, null, 0, -5px, 0);
+		@include transition();
+	}
+	&:hover {
+		color: #fff;
+		&::before {
+			bottom: 0;
+			opacity: 1;
+		}
+	}
+}
+
+.paroller {
+	position: relative;
+	z-index: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.overlay {
+	@include position(absolute, 0, 0, 0, 0);
+}
+
+.section-arrows {
+    svg {
+    	@include position(absolute, null, 0, null, 0);
+    }
+    .arrow-top {
+        top: -1px;
+    }
+    .arrow-bottom {
+        bottom: -1px;
+    }
+}
+
+.slick-arrow {
+	background-color: transparent;
+	border: 0 none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+	height: 60px;
+	padding: 0;
+	width: 60px;
+	z-index: 5;
+	@include transform(translateY(-50%));
+	@include position(absolute, 50%, null, null, null);
+	&:focus {
+		outline: none;
+	}
+}
+
+.slick-prev {
+	left: 0;
+}
+
+.slick-next {
+	right: 0;
+}
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	list-style: outside none none;
+	margin: 40px 0 0;
+	padding: 0;
+	button {
+		background-color: $text-color;
+		border: 0 none;
+		cursor: pointer;
+		height: 5px;
+		margin: 0 5px;
+		padding: 0;
+		position: relative;
+		text-indent: -9999px;
+		width: 40px;
+		@include transition(all 0.3s ease 0s);
+		&::before {
+			content: "";
+			height: 5px;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 0;
+			@extend .gradient-bg;
+			@include transition(all 0.3s ease 0s);
+		}
+		&:hover::before {
+			width: 100%;
+		}
+	}
+	.slick-active button::before {
+		width: 100%;
+	}
+}
+
+.slick-slider {
+	-webkit-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+	&:focus {
+		outline: 0;
+	}
+}
+
+.slick-slide:focus {
+	outline: 0;
+}
+
+.input-tp {
+	background-color: transparent;	
+	&:focus {
+		background-color: transparent;
+	}
+}
+
+// gradient-text old browser fallback
+.no-backgroundcliptext {
+	.gradient-text {
+		background-image: none;
+		-webkit-text-fill-color: unset;
+	}
+	.watermark-title {
+		color: #060811;
+	}
+	.btn-theme,
+	.gradient-bg {
+		background-color: $primary-color;
+	}
+	.section-arrow {
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+	.section-arrows {
+		display: none;
+	}
+	.footer-top-shape {
+		svg {
+		  	display: none;
+		}
+		img[src*=".svg"] {
+		  	display: block;
+		}
+	}
+}
+
+.material-input {
+	margin-bottom: 30px;
+	position: relative;
+	z-index: 0;
+	&::before,
+	&::after {
+	    background-color: rgba(#fff, .25);
+	    content: "";
+	    height: 2px;
+	    width: 100%;
+	    z-index: -1;
+	    @include transition(all 0.15s ease 0s);
+	    @include position(absolute, null, null, 0, 0);
+	}
+	&::after {
+	    background-color: rgba(#fff, 0.5);
+		width: 0;
+	}
+	input,
+	textarea {
+	    background-color: transparent;
+	    border: 0 none;
+	    border-radius: 0;
+	    height: 45px;
+	    padding: 0;
+	}
+	label:not(.error) {
+	    cursor: text;
+	    margin-bottom: 0;
+	    backface-visibility: hidden;
+	    @include transition();
+	    @include position(absolute, 5px, null, null, 0);
+	}
+	.form-control.error {
+		margin-bottom: 50px;
+	}
+	label.error {
+		color: $primary-color;
+		position: absolute;
+		bottom: -24px;
+		margin-bottom: 0;
+	}
+	&.active {
+		&::after {
+			width: 100%;
+		}
+		label:not(.error) {
+			top: -12px;
+			cursor: default;
+			left: -12px;
+	    	@include transform(scale(0.8));
+		}
+	}
+}
+
+
+@-webkit-keyframes pulse-border {
+	0% {
+	    @include transform(scale(1));
+	    opacity: 0.4;
+	}
+  	100% {
+    	@include transform(scale(1.5));
+    	opacity: 0.1;
+    }
+}
+@-moz-keyframes pulse-border {
+	0% {
+	    @include transform(scale(1));
+	    opacity: 0.4;
+	}
+  	100% {
+    	@include transform(scale(1.5));
+    	opacity: 0.1;
+    }
+}
+@-o-keyframes pulse-border {
+	0% {
+	    @include transform(scale(1));
+	    opacity: 0.4;
+	}
+  	100% {
+    	@include transform(scale(1.5));
+    	opacity: 0.1;
+    }
+}
+@keyframes pulse-border {
+	0% {
+	    @include transform(scale(1));
+	    opacity: 0.4;
+	}
+  	100% {
+    	@include transform(scale(1.5));
+    	opacity: 0.1;
+    }
+}

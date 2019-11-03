@@ -1,0 +1,12 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 341" style="enable-background:new 0 0 1920 341;" xml:space="preserve">
+	<style type="text/css">
+		.step-0{fill:#FE3E0B;}
+		.step-1{fill:#E5180A;}
+		.step-2{fill:#FC0247;}
+	</style>
+	<g>
+		<polygon class="step-2" points="0,270 0,270 0,341 959.9,191 1920,341 1920,270 960,120 	"/>
+		<polygon class="step-1" points="0,200 0,200 0,251 959.9,101 1920,251 1920,200 960,50 	"/>
+		<polygon class="step-0" points="960,0 0,150 0,150 0,181 959.9,31 1920,181 1920,150 	"/>
+	</g>
+</svg>

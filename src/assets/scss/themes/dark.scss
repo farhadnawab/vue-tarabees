@@ -1,0 +1,16 @@
+// import variables
+@import "../base/variables";
+
+
+.dark-bg {
+	background-color: $dark;
+}
+.form-control {
+	color: $text-color;
+}
+.input-tp {
+	color: #fff;
+	&:focus {
+		color: #fff;
+	}
+}
