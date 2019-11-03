@@ -2,6 +2,8 @@
 
 ## Project setup
 ```
+git clone https://github.com/Farhadnawab/vue-tarabees tarabees
+cd tarabees
 npm install
 ```
 
