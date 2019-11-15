@@ -62,3 +62,27 @@ Last Update: 22.02.2019
 Farhad Custom CSS
 -------------------------------------------------*/
 
+img{max-width: 100%;}
+.navbar-brand img{max-width: 180px;}
+.site-main.home{background: #171717;}
+#fire-flame::before {
+    content: "";
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(-30%, transparent), to(#171717)) !important;
+	background: linear-gradient(to bottom, transparent -30%, #171717 100%) !important;
+}
+.svg-fill-dark{fill: #171717 !important;}
+#testimonials{background: #000 !important;margin-top: 150px !important;padding-top: 200px !important;}
+#testimonials > img.top-img {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    @include transform(translateY(-50%));
+    max-width: 320px;
+}
+.site-footer{
+    background: -webkit-gradient(linear, left top, left top, color-stop(-30%, transparent), to(#171717)) !important;
+	background: linear-gradient(to top, transparent -30%, #171717 100%) !important;
+}
