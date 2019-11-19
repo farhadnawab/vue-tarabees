@@ -29,7 +29,7 @@
 						<div class="col-12 col-lg-8">
 							<article class="blog-post mb-50">
 								<figure class="post-media animated-border p-relative mb-35">
-									<img src="@/assets/img/bp-1.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/blog_home/layer-1.png" class="img-fluid" alt="">
 									<span class="gradient-border transition"></span>
 									<figcaption class="transition">
 										<div class="tags">
@@ -53,7 +53,7 @@
 							</article> <!-- end .blog-post -->
 							<article class="blog-post mb-50">
 								<figure class="post-media animated-border p-relative mb-35">
-									<img src="@/assets/img/bp-2.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/blog_home/layer-2.png" class="img-fluid" alt="">
 									<span class="gradient-border transition"></span>
 									<figcaption class="transition">
 										<div class="tags">
@@ -77,7 +77,7 @@
 							</article> <!-- end .blog-post -->
 							<article class="blog-post mb-50">
 								<figure class="post-media animated-border p-relative mb-35">
-									<img src="@/assets/img/bp-3.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/blog_home/layer-3.png" class="img-fluid" alt="">
 									<span class="gradient-border transition"></span>
 									<figcaption class="transition">
 										<div class="tags">
@@ -101,7 +101,7 @@
 							</article> <!-- end .blog-post -->
 							<article class="blog-post mb-50">
 								<figure class="post-media animated-border p-relative mb-35">
-									<img src="@/assets/img/bp-4.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/blog_home/layer-4.png" class="img-fluid" alt="">
 									<span class="gradient-border transition"></span>
 									<figcaption class="transition">
 										<div class="tags">
@@ -145,7 +145,7 @@
 							</section> <!-- end .widget-search -->
 							<section class="widget widget-author-bio mb-50">
 								<figure class="author-thumb text-center">
-									<img src="@/assets/img/author-2.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/blog_home/layer-5.png" class="img-fluid" alt="">
 									<figcaption class="mt-30">
 										<h4 class="h6 text-white fw-700 text-uppercase">Mark Tylor Junior</h4>
 										<p>Senior Fitness Trainer</p>

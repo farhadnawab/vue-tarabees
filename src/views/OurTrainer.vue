@@ -39,12 +39,12 @@
 						</div> <!-- end .col-12 col-lg-5 lg-push-1 -->
 
 						<div class="col-12 col-md-6 col-lg-6 offset-lg-1">
-							<img src="@/assets/img/trainer-1.jpg" class="img-fluid" alt="">
+							<img src="@/assets/img/trainers/layer-1.png" class="img-fluid" alt="">
 						</div>
 					</div> <!-- end #trainer-bio -->
 					<div class="row trainer-bio d-flex align-items-center mb-30">
 						<div class="col-12 col-md-6 col-lg-5">
-							<img src="@/assets/img/trainer-2.jpg" class="img-fluid" alt="">
+							<img src="@/assets/img/trainers/layer-2.png" class="img-fluid" alt="">
 						</div>
 
 						<div class="col-12 col-md-6 col-lg-6 offset-lg-1">
@@ -79,12 +79,12 @@
 						</div> <!-- end .col-12 col-md-6 col-lg-5 -->
 
 						<div class="col-12 col-md-6 col-lg-6 offset-lg-1">
-							<img src="@/assets/img/trainer-3.jpg" class="img-fluid" alt="">
+							<img src="@/assets/img/trainers/layer-3.png" class="img-fluid" alt="">
 						</div>
 					</div> <!-- end #trainer-bio -->
 					<div class="row trainer-bio d-flex align-items-center mb-30">
 						<div class="col-12 col-md-6 col-lg-5">
-							<img src="@/assets/img/trainer-4.jpg" class="img-fluid" alt="">
+							<img src="@/assets/img/trainers/layer-4.png" class="img-fluid" alt="">
 						</div>
 
 						<div class="col-12 col-md-6 col-lg-6 offset-lg-1">

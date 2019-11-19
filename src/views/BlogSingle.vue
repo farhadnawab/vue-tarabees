@@ -30,7 +30,7 @@
 						<div class="col-12 col-lg-8">
 							<article class="blog-post mb-50">
 								<figure class="post-media p-relative mb-35">
-									<img src="@/assets/img/bp-1.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/blog_details/layer-9.png" class="img-fluid" alt="">
 									<span class="gradient-border transition"></span>
 									<figcaption class="transition">
 										<div class="tags">
@@ -74,7 +74,7 @@
 							</div> <!-- end .flex -->
 							<div class="article-author flex mt-80">
 								<figure class="thumb mb-0 mr-30">
-									<img src="@/assets/img/article-author.jpg" alt="">
+									<img src="@/assets/img/blog_details/layer-5.png" alt="">
 								</figure>
 								<div class="article-author-bio">
 									<h5 class="text-white text-uppercase fw-700">Angeles Flemming</h5>
@@ -170,7 +170,7 @@
 							</section> <!-- end .widget-search -->
 							<section class="widget widget-author-bio mb-50">
 								<figure class="author-thumb text-center">
-									<img src="@/assets/img/author-2.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/blog_details/layer-5.png" class="img-fluid" alt="">
 									<figcaption class="mt-30">
 										<h4 class="h6 text-white fw-700 text-uppercase">Mark Tylor Junior</h4>
 										<p>Senior Fitness Trainer</p>

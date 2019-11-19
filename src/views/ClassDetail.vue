@@ -30,7 +30,7 @@
 						<div class="col-12 col-lg-8">
 							<article class="blog-post mb-50">
 								<figure class="post-media p-relative mb-35">
-									<img src="@/assets/img/bp-1.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/class_details/layer-1.png" class="img-fluid" alt="">
 									<span class="gradient-border transition"></span>
 								</figure>
 								<div class="excerpt">
@@ -133,7 +133,7 @@
 						<aside id="widget-area" class="col-12 col-lg-4">
 							<section class="widget widget-author-bio mb-50">
 								<figure class="author-thumb text-center">
-									<img src="@/assets/img/author-2.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/class_details/layer-3.png" class="img-fluid" alt="">
 									<figcaption class="mt-30">
 										<h4 class="h6 text-white fw-700 text-uppercase">Mark Tylor Junior</h4>
 										<p>Senior Fitness Trainer</p>
@@ -189,7 +189,7 @@
 								<ul class="widget-post-list list-unstyled mb-0 mt-30">
 									<li class="flex widget-post">
 										<figure class="thumbnail mr-20 mb-0">
-											<img src="@/assets/img/wp-1.png" alt="">
+											<img src="@/assets/img/class_details/layer-4.png" alt="">
 										</figure>
 										<div class="wp-summery">
 											<p class="fs-12 mb-10">$250.00</p>
@@ -198,7 +198,7 @@
 									</li>
 									<li class="flex widget-post">
 										<figure class="thumbnail mr-20 mb-0">
-											<img src="@/assets/img/wp-2.png" alt="">
+											<img src="@/assets/img/class_details/layer-5.png" alt="">
 										</figure>
 										<div class="wp-summery">
 											<p class="fs-12 mb-10">$350.00</p>
@@ -207,7 +207,7 @@
 									</li>
 									<li class="flex widget-post">
 										<figure class="thumbnail mr-20 mb-0">
-											<img src="@/assets/img/wp-3.png" alt="">
+											<img src="@/assets/img/class_details/layer-6.png" alt="">
 										</figure>
 										<div class="wp-summery">
 											<p class="fs-12 mb-10">$20.00</p>

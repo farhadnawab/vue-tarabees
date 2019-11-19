@@ -15,6 +15,14 @@ Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/',
+    name: 'home',
+    component: Home,
+    meta: {
+      footerTop: true
+    }
+  },
+  {
     path: '/404',
     component: NotFound,
     meta: {
@@ -22,23 +30,8 @@ const routes = [
     }
   },
   {
-    path: '*',
-    redirect: '/404',
-    meta: {
-      footerTop: false
-    }
-  },
-  {
-    path: '/',
-    name: 'Home',
-    component: Home,
-    meta: {
-      footerTop: true
-    }
-  },
-  {
     path: '/about',
-    name: 'About',
+    name: 'about',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -49,7 +42,7 @@ const routes = [
   },
   {
     path: '/class-schedule',
-    name: 'ClassSchedule',
+    name: 'classSchedule',
     component: ClassSchedule,
     meta: {
       footerTop: false
@@ -57,7 +50,7 @@ const routes = [
   },
   {
     path: '/clasess',
-    name: 'Clasess',
+    name: 'clasess',
     component: Clasess,
     meta: {
       footerTop: false
@@ -65,7 +58,7 @@ const routes = [
   },
   {
     path: '/class-detail',
-    name: 'ClassDetail',
+    name: 'classDetail',
     component: ClassDetail,
     meta: {
       footerTop: false
@@ -73,7 +66,7 @@ const routes = [
   },
   {
     path: '/our-trainer',
-    name: 'OurTrainer',
+    name: 'ourTrainer',
     component: OurTrainer,
     meta: {
       footerTop: false
@@ -81,7 +74,7 @@ const routes = [
   },
   {
     path: '/gallery',
-    name: 'Gallery',
+    name: 'gallery',
     component: Gallery,
     meta: {
       footerTop: false
@@ -89,7 +82,7 @@ const routes = [
   },
   {
     path: '/blog-list',
-    name: 'BlogList',
+    name: 'blogList',
     component: BlogList,
     meta: {
       footerTop: false
@@ -97,7 +90,7 @@ const routes = [
   },
   {
     path: '/blog-single',
-    name: 'BlogSingle',
+    name: 'blogSingle',
     component: BlogSingle,
     meta: {
       footerTop: false
@@ -105,7 +98,7 @@ const routes = [
   },
   {
     path: '/contact',
-    name: 'Contact',
+    name: 'contact',
     component: Contact,
     meta: {
       footerTop: false

@@ -64,7 +64,7 @@ Farhad Custom CSS
 
 img{max-width: 100%;}
 .navbar-brand img{max-width: 180px;}
-.site-main.home{background: #171717;}
+.grey-background{background: #171717;}
 #fire-flame::before {
     content: "";
     background: -webkit-gradient(linear, left top, left bottom, color-stop(-30%, transparent), to(#171717)) !important;
@@ -83,6 +83,11 @@ img{max-width: 100%;}
     max-width: 320px;
 }
 .site-footer{
+    background: #000 !important;
+    border-top: 5px solid #fa004a;
+}
+.site-footer.bottom-full{
+    border-top: 0;
     background: -webkit-gradient(linear, left top, left top, color-stop(-30%, transparent), to(#171717)) !important;
 	background: linear-gradient(to top, transparent -30%, #171717 100%) !important;
 }

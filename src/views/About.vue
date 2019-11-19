@@ -1,5 +1,5 @@
 <template>
-  <main class="site-main about dark-bg">
+  <main class="site-main about grey-background">
 
 			<section class="page-header">
 				<h1 class="text-center text-white text-uppercase fw-700 mb-0">About Us</h1>
@@ -30,8 +30,7 @@
 						</div> <!-- end .col-12.col-md-6 -->
 						<div class="col-12 col-md-6 col-lg-5 offset-lg-1">
 							<article class="about-article">
-								<span class="tag gradient-text text-uppercase fw-500">About Us</span>
-								<h2 class="fw-700 text-white text-uppercase">We Are Squat. <br>Here is Who We Are.</h2>
+								<h2 class="fw-700 gradient-text text-uppercase">We Are Squat. <br>Here is Who We Are.</h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
 								<p class="d-none d-sm-block d-md-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 								<a href="#" class="btn btn-theme mt-30">Learn More</a>
@@ -62,8 +61,7 @@
 					<div class="trainer-slider">
 						<div class="row trainer-bio d-flex align-items-center">
 							<div class="col-12 col-md-6 col-lg-5">
-								<h3 class="text-white text-uppercase fw-700 text-white">Mithila Rashid</h3>
-								<p class="gradient-text fw-500 text-uppercase mb-30">Lead Trainer</p>
+								<h3 class="text-white text-uppercase fw-700 text-white mb-30">Mithila Rashid</h3>
 
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
 
@@ -77,13 +75,12 @@
 							</div> <!-- end .col-12 col-lg-5 lg-push-1 -->
 
 							<div class="col-12 col-md-6 col-lg-6 offset-lg-1">
-								<img src="@/assets/img/trainer-2.jpg" class="img-fluid" alt="">
+								<img src="@/assets/img/about/layer-5.png" class="img-fluid" alt="">
 							</div>
 						</div> <!-- end #trainer-bio -->
 						<div class="row trainer-bio d-flex align-items-center">
 							<div class="col-12 col-md-6 col-lg-5">
-								<h3 class="text-white text-uppercase fw-700 text-white">John Kabir</h3>
-								<p class="gradient-text fw-500 text-uppercase mb-30">Lead Trainer</p>
+								<h3 class="text-white text-uppercase fw-700 text-white mb-30">John Kabir</h3>
 
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
 
@@ -97,13 +94,12 @@
 							</div> <!-- end .col-12 col-md-6 col-lg-5 -->
 
 							<div class="col-12 col-md-6 col-lg-6 offset-lg-1">
-								<img src="@/assets/img/trainer-3.jpg" class="img-fluid" alt="">
+								<img src="@/assets/img/about/layer-5.png" class="img-fluid" alt="">
 							</div>
 						</div> <!-- end #trainer-bio -->
 						<div class="row trainer-bio d-flex align-items-center">
 							<div class="col-12 col-md-6 col-lg-5">
-								<h3 class="text-white text-uppercase fw-700 text-white">Siyam Ahmed</h3>
-								<p class="gradient-text fw-500 text-uppercase mb-30">Lead Trainer</p>
+								<h3 class="text-white text-uppercase fw-700 text-white mb-30">Siyam Ahmed</h3>
 
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
 
@@ -117,15 +113,14 @@
 							</div> <!-- end .col-12 col-md-6 col-lg-5 -->
 
 							<div class="col-12 col-md-6 col-lg-6 offset-lg-1">
-								<img src="@/assets/img/trainer-4.jpg" class="img-fluid" alt="">
+								<img src="@/assets/img/about/layer-5.png" class="img-fluid" alt="">
 							</div>
 						</div> <!-- end #trainer-bio -->
 					</div> <!-- end .trainer-slide -->
 				</div> <!-- end .container -->
 			</section> <!-- end #our-trainers -->
 			
-			<section id="testimonials" class="section-full p-relative paroller">
-				<div class="overlay" data-bgc="#030409,80"></div>
+			<section id="testimonials" class="section-full p-relative paroller" style="background: #202126 !important;">
 				<div class="container">
 					<div class="row">
 						<div class="col-12 col-lg-10 offset-lg-1">

@@ -26,7 +26,7 @@
 						<div class="col-12 col-md-6 col-lg-4">
 							<div class="item-card animated-border service-item p-relative ov-hidden">
 								<figure class="p-relative mb-0">
-									<img src="@/assets/img/service-1.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/clasess/layer-1.png" class="img-fluid" alt="">
 									<figcaption>
 										<h4 class="text-uppercase fw-700 dark-color fs-18">Fitness Service 03</h4>
 										<p>Lorem ipsum dolor amet podor</p>
@@ -43,7 +43,7 @@
 						<div class="col-12 col-md-6 col-lg-4">
 							<div class="item-card animated-border service-item p-relative ov-hidden">
 								<figure class="p-relative mb-0">
-									<img src="@/assets/img/service-2.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/clasess/layer-2.png" class="img-fluid" alt="">
 									<figcaption>
 										<h4 class="text-uppercase fw-700 dark-color fs-18">Fitness Service 03</h4>
 										<p>Lorem ipsum dolor amet podor</p>
@@ -60,7 +60,7 @@
 						<div class="col-12 col-md-6 col-lg-4">
 							<div class="item-card animated-border service-item p-relative ov-hidden">
 								<figure class="p-relative mb-0">
-									<img src="@/assets/img/service-3.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/clasess/layer-3.png" class="img-fluid" alt="">
 									<figcaption>
 										<h4 class="text-uppercase fw-700 dark-color fs-18">Fitness Service 03</h4>
 										<p>Lorem ipsum dolor amet podor</p>
@@ -77,7 +77,7 @@
 						<div class="col-12 col-md-6 col-lg-4">
 							<div class="item-card animated-border service-item p-relative ov-hidden">
 								<figure class="p-relative mb-0">
-									<img src="@/assets/img/service-4.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/clasess/layer-4.png" class="img-fluid" alt="">
 									<figcaption>
 										<h4 class="text-uppercase fw-700 dark-color fs-18">Fitness Service 03</h4>
 										<p>Lorem ipsum dolor amet podor</p>
@@ -94,7 +94,7 @@
 						<div class="col-12 col-md-6 col-lg-4">
 							<div class="item-card animated-border service-item p-relative ov-hidden">
 								<figure class="p-relative mb-0">
-									<img src="@/assets/img/service-5.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/clasess/layer-5.png" class="img-fluid" alt="">
 									<figcaption>
 										<h4 class="text-uppercase fw-700 dark-color fs-18">Fitness Service 03</h4>
 										<p>Lorem ipsum dolor amet podor</p>
@@ -111,7 +111,7 @@
 						<div class="col-12 col-md-6 col-lg-4">
 							<div class="item-card animated-border service-item p-relative ov-hidden">
 								<figure class="p-relative mb-0">
-									<img src="@/assets/img/service-6.jpg" class="img-fluid" alt="">
+									<img src="@/assets/img/clasess/layer-6.png" class="img-fluid" alt="">
 									<figcaption>
 										<h4 class="text-uppercase fw-700 dark-color fs-18">Fitness Service 03</h4>
 										<p>Lorem ipsum dolor amet podor</p>
@@ -125,6 +125,12 @@
 							</div> <!-- end .item-card service-item -->
 						</div> <!-- end .col-12.col-md-4 -->
 					</div> <!-- end .row -->
+					<div class="row">
+						<div class="col-12 text-center mt-70">
+							<a href="#" class="btn btn-theme">Learn More</a>
+						</div>
+					</div>
+
 				</div> <!-- end .container -->
 			</section> <!-- end #classes -->
 

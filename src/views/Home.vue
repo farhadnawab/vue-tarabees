@@ -1,5 +1,5 @@
 <template>
-  <main class="site-main home dark-bg" :key="componentKey">
+  <main class="site-main home grey-background" :key="componentKey">
       <section class="main-banner p-relative">
         <div class="banner-content ov-hidden">
             <div class="caption-mobile text-center">
@@ -187,7 +187,7 @@
                   </div>
                   <!-- end .col-12 col-lg-5 lg-push-1 -->
                   <div class="col-12 col-md-6 col-lg-6 offset-lg-1">
-                    <img src="@/assets/img/trainer-2.jpg" class="img-fluid" alt="">
+                    <img src="@/assets/img/about/layer-5.png" class="img-fluid" alt="">
                   </div>
               </div>
               <!-- end #trainer-bio -->
@@ -223,7 +223,7 @@
                   </div>
                   <!-- end .col-12 col-md-6 col-lg-5 -->
                   <div class="col-12 col-md-6 col-lg-6 offset-lg-1">
-                    <img src="@/assets/img/trainer-4.jpg" class="img-fluid" alt="">
+                    <img src="@/assets/img/about/layer-5.png" class="img-fluid" alt="">
                   </div>
               </div>
               <!-- end #trainer-bio -->
