@@ -14,7 +14,7 @@
     "ev-emitter": "^1.1.1",
     "fizzy-ui-utils": "^2.0.7",
     "get-size": "^2.0.3",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "magnific-popup": "^1.1.0",
     "masonry-layout": "^4.2.2",
     "outlayer": "^2.1.1",
